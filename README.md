@@ -142,11 +142,11 @@ public void deposit(double amount) throws InvalidAmountException
 2. Throw the exceptions based on the behavior described in the comments. Don't forget to add the throws declaration in the method's header. Since this method throws more than one error, make it so that it throws a generic Exception so that it covers any subclass of Exception.
 3. Handle the rest of the logic of the method.
 
-#### InvalidAmountException
-1. Uncomment the next tester method.
-2. Add the missing constructor.
-3. Now that you have a constructor with a parameter, wherever you use the non-parameterized constructor, you must add the amount. For example, BankAccount uses this exception a lot.
-4. Add a getMessage method that returns a message similar to the one shown in the tester method. As usual, care of any required white spaces.
+### InvalidAmountException
+Uncomment the next tester method.
+1. Add the missing constructor.
+2. Now that you have a constructor with a parameter, wherever you use the non-parameterized constructor, you must add the amount. For example, BankAccount uses this exception a lot.
+3. Add a getMessage method that returns a message similar to the one shown in the tester method. As usual, care of any required white spaces.
 
 Attempt the remainder of the tester methods now. For the last section, explore subclassing RuntimeException instead of Exception. What's the difference between check and unchecked exceptions?
 ___________
