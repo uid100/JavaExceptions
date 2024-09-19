@@ -172,11 +172,12 @@ ___________
 ## Rubric
 
 [Rubric](Rubric.md)
-___________
 
 </details>
 
-_this repository is a subset of the CISC191 exercises. It is derived from the CISC191ProgrammingChallenges 
+
+___________
+_This repository is a subset of the CISC191 exercises. It is derived from the CISC191ProgrammingChallenges 
 activity hosted by Professor Allan Schougaard, San Diego Mesa College, and not a direct fork._
 
 _This project is to decompose that repository into git submodules_
