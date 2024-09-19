@@ -129,8 +129,8 @@ Exceptions are a class in Java. The BankAccount will now have you creating class
 
 1. Uncomment the next tester method which now uses the BankAccount class.
 #### Deposit
-     a) This method asks you to throw a specific type of exception that does not exist. Create a class of the described exception that extends the Exception class.
-     b) Check to see if should throw the exception and throw it, otherwise, proceed with the method's logic.
+     1. This method asks you to throw a specific type of exception that does not exist. Create a class of the described exception that extends the Exception class.
+     2. Check to see if should throw the exception and throw it, otherwise, proceed with the method's logic.
 
 A method that throws an exception must declare so in the header. Add throws InvalidAmountException at the end of the method signature so it looks like the line below. 
 ```
@@ -138,9 +138,9 @@ public void deposit(double amount) throws InvalidAmountException
 ```
 
 #### Withdraw
-     a) Take a look at the comments of the method. Create the missing exception classes similar to the deposit method.
-     b) Throw the exceptions based on the behavior described in the comments. Don't forget to add the throws declaration in the method's header. Since this method throws more than one error, make it so that it throws a generic Exception so that it covers any subclass of Exception.
-     c) Handle the rest of the logic of the method.
+     1. Take a look at the comments of the method. Create the missing exception classes similar to the deposit method.
+     2. Throw the exceptions based on the behavior described in the comments. Don't forget to add the throws declaration in the method's header. Since this method throws more than one error, make it so that it throws a generic Exception so that it covers any subclass of Exception.
+     3. Handle the rest of the logic of the method.
 
 #### InvalidAmountException
 1. Uncomment the next tester method.
