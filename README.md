@@ -6,7 +6,7 @@ Java Test Driven Development (TDD) project to program Java classes with unit tes
 ________
 
 <details>
- <summary><h2><em>source</em></h2></summary>
+ <summary><em>source</em></summary>
 
 
  ![220px-MesaLogo](https://github.com/schougaard/SanDiegoMesaCISC191ProgrammingChallenges/assets/716243/334f6724-6afa-4198-9eff-7c49c472cd35)
