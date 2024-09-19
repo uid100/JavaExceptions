@@ -98,14 +98,14 @@ The term *throwing an exception* in Java is used to describe the process of crea
 3. Uncomment the next tester which will focus on the `calculateTotalBill()` method.
 Fix the method so that it throws an `IllegaStateException` if the bill or tipPercent do not have proper values. The current setup allows the creation of a `CheckoutBill` object that initializes the instance variables to undesirable values. Do not alter this behavior as this is by design.
 4. Uncomment the next tester method (`testMain()`).
-Now you must handle exceptions in the main method of the CheckoutBill class. Note that you will not actually have to do much in the catch clause other than printing the error to the console.
+Now you must handle exceptions in the main method of the CheckoutBill class. _**Note that you will not actually have to do much in the catch clause other than printing the error to the console.**_
 
 To handle an exception in Java means to take corrective action when an error occurs. This can involve logging the error, displaying a meaningful error message to the user, or taking other steps to recover from the error and continue executing the program.
 
 There are two main ways to handle exceptions in Java:
-Using the try-catch-finally block. The try-catch-finally block is the most common way to handle exceptions in Java. It allows you to specify a block of code that is to be executed, and to catch any exceptions that occur within that block. The finally block is optional, but it is often used to perform cleanup tasks, such as closing resources.
-Using the try-with-resources statement. The try-with-resources statement is a newer way to handle exceptions in Java. It is specifically designed for handling resources that must be closed after they are used. For example, you can use the try-with-resources statement to handle files, database connections, and network sockets.
-
+**Using the try-catch-finally block.** The try-catch-finally block is the most common way to handle exceptions in Java. It allows you to specify a block of code that is to be executed, and to catch any exceptions that occur within that block. The finally block is optional, but it is often used to perform cleanup tasks, such as closing resources.
+**Using the try-with-resources statement.** The try-with-resources statement is a newer way to handle exceptions in Java. It is specifically designed for handling resources that must be closed after they are used. For example, you can use the try-with-resources statement to handle files, database connections, and network sockets.
+```
 try {
   // Code that may throw an exception
 } catch (Exception e) {
@@ -113,35 +113,41 @@ try {
 } finally {
   // Perform cleanup tasks here
 }
+```
+
 In this programming assignment, you are not accessing resources so you do not need the finally block. 
+```
 try{
   // code that may throw an exception
 }catch( Exception e){
   //handle exception here or print the exception to the console
 }
-BankAccount
+```
+
+### BankAccount
 Exceptions are a class in Java. The BankAccount will now have you creating classes that subclass the Exception class.
 
-Uncomment the next tester method which now uses the BankAccount class.
-Deposit
-a) This method asks you to throw a specific type of exception that does not exist. Create a class of the described exception that extends the Exception class.
-
-b) Check to see if should throw the exception and throw it, otherwise, proceed with the method's logic.
+1. Uncomment the next tester method which now uses the BankAccount class.
+#### Deposit
+     a) This method asks you to throw a specific type of exception that does not exist. Create a class of the described exception that extends the Exception class.
+     b) Check to see if should throw the exception and throw it, otherwise, proceed with the method's logic.
 
 A method that throws an exception must declare so in the header. Add throws InvalidAmountException at the end of the method signature so it looks like the line below. 
+```
 public void deposit(double amount) throws InvalidAmountException
-Withdraw
-a) Take a look at the comments of the method. Create the missing exception classes similar to the deposit method.
+```
 
-b) Throw the exceptions based on the behavior described in the comments. Don't forget to add the throws declaration in the method's header. Since this method throws more than one error, make it so that it throws a generic Exception so that it covers any subclass of Exception.
+#### Withdraw
+     a) Take a look at the comments of the method. Create the missing exception classes similar to the deposit method.
+     b) Throw the exceptions based on the behavior described in the comments. Don't forget to add the throws declaration in the method's header. Since this method throws more than one error, make it so that it throws a generic Exception so that it covers any subclass of Exception.
+     c) Handle the rest of the logic of the method.
 
-c) Handle the rest of the logic of the method.
+#### InvalidAmountException
+1. Uncomment the next tester method.
+2. Add the missing constructor.
+3. Now that you have a constructor with a parameter, wherever you use the non-parameterized constructor, you must add the amount. For example, BankAccount uses this exception a lot.
+4. Add a getMessage method that returns a message similar to the one shown in the tester method. As usual, care of any required white spaces.
 
-InvalidAmountException
-Uncomment the next tester method.
-Add the missing constructor.
-Now that you have a constructor with a parameter, wherever you use the non-parameterized constructor, you must add the amount. For example, BankAccount uses this exception a lot.
-Add a getMessage method that returns a message similar to the one shown in the tester method. As usual, care of any required white spaces.
 Attempt the remainder of the tester methods now. For the last section, explore subclassing RuntimeException instead of Exception. What's the difference between check and unchecked exceptions?
 ___________
 
