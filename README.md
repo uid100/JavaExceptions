@@ -5,8 +5,10 @@
 Java Test Driven Development (TDD) project to program Java classes with unit testing ( with **JUnit** )
 
 ________
+<details>
+ <summary>*Credits*</summary>
 
-![220px-MesaLogo](https://github.com/schougaard/SanDiegoMesaCISC191ProgrammingChallenges/assets/716243/334f6724-6afa-4198-9eff-7c49c472cd35)
+ ![220px-MesaLogo](https://github.com/schougaard/SanDiegoMesaCISC191ProgrammingChallenges/assets/716243/334f6724-6afa-4198-9eff-7c49c472cd35)
 
 # San Diego Mesa College CISC 191 Programming Challenges
 Programming challenges for San Diego Community College CISC 191 Intermediate Java classes.
@@ -18,10 +20,12 @@ Created by
 With contributions from: 
 - Dom David,
 - [Dan Sullivan](https://github.com/uid100)
-
 ________
 
-## Assignment Overview
+</details>
+<details>
+ <summary><h2>Overview</h2></summary>
+
 Assignment Overview
 
 Java defines special types of errors called exceptions for a number of reasons:
@@ -44,10 +48,11 @@ Here are some specific examples of how exceptions can be used in Java:
  - Handling errors caused by network operations. If a program tries to connect to a network server that is unavailable, the program can throw an exception, which can then be handled to retry the connection or notify the user of the error.
 
 By using exceptions to handle errors, Java programs can become more robust, reliable, and user-friendly.
-
 ________
 
-## Instructions
+</details>
+<details>
+ <summary><h2>Instructions</h2></summary>
 
 ## _(Open the Project)_
 1. From the **<> Code** dropdown link in the repository (above), download the Zip file to your computer.
@@ -63,8 +68,9 @@ ________
 Code Layout
 
 You will be completing code that deals with banking and bills. In the past, we may have handled input validation a little differently with simple if-statements and early returns of specific values. This time, you will handle special behaviors dealing with values using Exceptions.
-
 ___________
+
+</details>
 
 ## Programming Task(s)
 
