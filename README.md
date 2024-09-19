@@ -25,7 +25,7 @@ ________
 
 </details>
 <details>
- <summary><h2>Overview</h2></summary>
+ <summary>Overview</summary>
 
 Assignment Overview
 
@@ -53,7 +53,7 @@ ________
 
 </details>
 <details>
- <summary><h2>Instructions</h2></summary>
+ <summary>Instructions</summary>
 
 ## _(Open the Project)_
 1. From the **<> Code** dropdown link in the repository (above), download the Zip file to your computer.
@@ -66,13 +66,18 @@ ________
 
 ## _(Complete the Assignment)_
 
-Code Layout
-
+</details>
+<details>
+ <summary>Code Layout</summary>
+ 
 You will be completing code that deals with banking and bills. In the past, we may have handled input validation a little differently with simple if-statements and early returns of specific values. This time, you will handle special behaviors dealing with values using Exceptions.
 ___________
 
 </details>
+<details>
+ <summary>Programming Tasks</summary>
 
+ 
 ## Programming Task(s)
 
 ### CheckoutBill
@@ -138,8 +143,9 @@ Add the missing constructor.
 Now that you have a constructor with a parameter, wherever you use the non-parameterized constructor, you must add the amount. For example, BankAccount uses this exception a lot.
 Add a getMessage method that returns a message similar to the one shown in the tester method. As usual, care of any required white spaces.
 Attempt the remainder of the tester methods now. For the last section, explore subclassing RuntimeException instead of Exception. What's the difference between check and unchecked exceptions?
-
 ___________
+
+</details>
 
 ## Complete and zip the project
 1. Run and add the code to the src folder until the tests are successful.
