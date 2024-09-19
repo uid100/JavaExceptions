@@ -153,6 +153,9 @@ ___________
 
 </details>
 
+<details>
+ <summary>Complete and submit the project</summary>
+ 
 ## Complete and zip the project
 1. Run and add the code to the src folder until the tests are successful.
 2. Uncomment each test case in the **Test** file (`TestAdvancedClasses.java`), one at a time. 
@@ -169,9 +172,9 @@ ___________
 ## Rubric
 
 [Rubric](Rubric.md)
-
-
 ___________
+
+</details>
 
 _this repository is a subset of the CISC191 exercises. It is derived from the CISC191ProgrammingChallenges 
 activity hosted by Professor Allan Schougaard, San Diego Mesa College, and not a direct fork._
