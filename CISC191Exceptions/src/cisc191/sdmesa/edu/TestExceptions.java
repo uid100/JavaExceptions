@@ -90,7 +90,7 @@ class TestExceptions
 //			bill.setTipPercent(-0.1);
 //		});
 //	}
-
+//
 //	@Test
 //	void testCheckoutBillCalculateTotalBill()
 //	{
@@ -111,7 +111,7 @@ class TestExceptions
 //			bill3.calculateTotalBill();
 //		});
 //	}
-
+//
 //	@Test
 //	void testMain()
 //	{
@@ -120,7 +120,7 @@ class TestExceptions
 //			CheckoutBill.main(null);
 //		});
 //	}
-
+//
 //	@Test
 //	void testBankAccountDepositWithdraw() throws Exception
 //	{
@@ -134,7 +134,7 @@ class TestExceptions
 //		account.withdraw(250);
 //		assertEquals(0, account.getBalance());
 //	}
-
+//
 //	@Test
 //	void testBankAccountDepositException() throws Exception
 //	{
@@ -150,7 +150,7 @@ class TestExceptions
 //		assertEquals("Negative amount: $-0.01 is not allowed", exception.getMessage());
 //      assertEquals(100, account.getBalance());
 //	}
-
+//
 //	@Test
 //	void testBankAccountWithdrawException1() throws Exception
 //	{
@@ -162,7 +162,7 @@ class TestExceptions
 //		assertEquals("Negative amount: $-0.01 is not allowed", exception.getMessage());
 //      assertEquals(200, account.getBalance());
 //	}
-
+//
 //	@Test
 //	void testBankAccountWithdrawException2() throws Exception
 //	{
@@ -179,7 +179,7 @@ class TestExceptions
 //				exception2.getMessage());
 //      assertEquals(300, account.getBalance());
 //	}
-
+//
 //	@Test
 //	void testWithdrawAsPossible() throws Exception
 //	{
